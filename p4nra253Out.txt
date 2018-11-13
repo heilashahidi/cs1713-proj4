@@ -1,0 +1,153 @@
+Initial Users
+  UserID  Make       Model       AvgMPG  AvgPPG
+     Name                 Phone           login        email                         
+  CHV042  Chevrolet  Cruze        34.34    5.23
+     Klye Lorson          (210)555-4242   klorson      klorson@gnassi.org            
+  CHV048  Chevrolet  Sonic        28.28    2.53
+     Johnny Jipsom        (210)555-4848   jjipsom      jjipsom@jhendricks.org        
+  FRD002  Ford       Focus        34.34    2.86
+     Nail Keshighski      (210)555-0202   nhighski     nhighski@pencilke.net         
+  FRD017  Ford       Fiesta       34.43    4.22
+     Stenny Rickman       (210)555-1717   srickman     srickman@fenway.xyz           
+  TOY018  Toyota     Yaris        35.35    4.84
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+  TOY078  Toyota     Corolla      33.33    3.04
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+
+
+USER SHOW TOY018
+  TOY018  Toyota     Yaris        35.35    4.84
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+USER SHOW TOY666
+ *** user (TOY666) not found ***
+USER UPDVEH TOY018 Ferrari Spider
+USER SHOW TOY018
+  TOY018  Ferrari    Spider        0.00    0.00
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+VEH FILL TOY078 2.06 284 14.2
+TOY078        2.06    284   14.20
+
+VEH FILL TOY078 2.22 197 9.4
+TOY078        2.22    197    9.40
+
+VEH FILL TOY666 5.55 555 55.5
+TOY666        5.55    555   55.50
+ *** user (TOY666) not found ***
+VEH FILL TOY078 2.35 174 7.6
+TOY078        2.35    174    7.60
+
+VEH FILL TOY078 2.05 273 12.9
+TOY078        2.05    273   12.90
+
+VEH FILL FRD002 4.13 220 8.2
+FRD002        4.13    220    8.20
+
+USER NEW TES003 Tesla X
+USER CONTACT TES003,sparky@trons.net,Going Green,(210)555-0303,ggreen 
+VEH FILL CHV042 3.22 215 9.1
+CHV042        3.22    215    9.10
+
+VEH FILL FRD002 4.34 206 8.8
+FRD002        4.34    206    8.80
+
+VEH FILL CHV042 3.06 213 8.3
+CHV042        3.06    213    8.30
+
+VEH FILL FRD002 4.03 189 9
+FRD002        4.03    189    9.00
+
+USER NEW TES002 Tesla 3
+USER CONTACT TES005,imNum1@paypal.com,Erlin Mosk,(210)555-0202,emosk
+ *** user (TES005) not found ***
+USER CONTACT TES002,imNum1@paypal.com,Erlin Mosk,(210)555-0202,emosk
+VEH FILL CHV042 3.44 224 8.8
+CHV042        3.44    224    8.80
+
+VEH FILL FRD002 4.55 205 8.6
+FRD002        4.55    205    8.60
+
+USER SHOW TOY078
+  TOY078  Toyota     Corolla      31.66    2.92
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+USER SHOW TOY018
+  TOY018  Ferrari    Spider        0.00    0.00
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+VEH FIX TOY018 8.00 5 5.00
+TOY018        8.00      5    5.00
+ *** fillups is zero ***
+VEH FILL TOY078 8.00 5 5.00
+TOY078        8.00      5    5.00
+
+USER SHOW TOY078
+  TOY078  Toyota     Corolla      30.64    3.09
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+VEH FILL TOY078 8.00 5 5.00
+TOY078        8.00      5    5.00
+
+USER SHOW TOY078
+  TOY078  Toyota     Corolla      29.69    3.25
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+VEH FIX TOY078 8.00 5 5.00
+TOY078        8.00      5    5.00
+
+USER SHOW TOY078
+  TOY078  Toyota     Corolla      29.65    2.98
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+VEH FIX TOY078 8.00 5 5.00
+TOY078        8.00      5    5.00
+
+USER SHOW TOY078
+  TOY078  Toyota     Corolla      29.62    2.71
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+VEH FILL TOY018 3.28 328 16
+TOY018        3.28    328   16.00
+
+USER SHOW TOY018
+  TOY018  Ferrari    Spider       20.50    3.28
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+VEH FIX TOY018 8.00 5 5.00
+TOY018        8.00      5    5.00
+USER SHOW TOY018
+  TOY018  Ferrari    Spider        0.00    0.00
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+USER NEW TOY018 Tesla X
+ *** user (TOY018) already exists
+USER NEW TES001 Tesla S
+USER CONTACT TES001,falcon@spaceX.org,Electric Sheep,(210)555-0101,esheep
+USER SHOW TOY018
+  TOY018  Ferrari    Spider        0.00    0.00
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+VEH FILL TOY018 2.99 222 8.9
+TOY018        2.99    222    8.90
+
+USER SHOW TOY018
+  TOY018  Ferrari    Spider       24.94    2.99
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+VEH FILL TOY018 3.12 289 9.8
+TOY018        3.12    289    9.80
+
+VEH SHOW TOY018invalid subcommand for VEH: SHOW
+
+Resulting Users
+  UserID  Make       Model       AvgMPG  AvgPPG
+     Name                 Phone           login        email                         
+  CHV042  Chevrolet  Cruze        33.53    5.06
+     Klye Lorson          (210)555-4242   klorson      klorson@gnassi.org            
+  CHV048  Chevrolet  Sonic        28.28    2.53
+     Johnny Jipsom        (210)555-4848   jjipsom      jjipsom@jhendricks.org        
+  FRD002  Ford       Focus        32.11    3.16
+     Nail Keshighski      (210)555-0202   nhighski     nhighski@pencilke.net         
+  FRD017  Ford       Fiesta       34.43    4.22
+     Stenny Rickman       (210)555-1717   srickman     srickman@fenway.xyz           
+  TES001  Tesla      S             0.00    0.00
+     Electric Sheep       (210)555-0101   esheep       falcon@spaceX.org             
+  TES002  Tesla      3             0.00    0.00
+     Erlin Mosk           (210)555-0202   emosk        imNum1@paypal.com             
+  TES003  Tesla      X             0.00    0.00
+     Going Green          (210)555-0303   ggreen       sparky@trons.net              
+  TOY018  Ferrari    Spider       27.22    3.06
+     Khloe Bush           (210)555-1818   kbush        shrubbery@gibbs.edu           
+  TOY078  Toyota     Corolla      29.62    2.71
+     Marty Falsex Jr.     (210)555-7878   mfsex        mfx@furnrow.net               
+
+

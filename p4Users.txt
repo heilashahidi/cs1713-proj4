@@ -1,0 +1,12 @@
+Toyota Corolla 33.33 3.04 25
+TOY078,mfx@furnrow.net,Marty Falsex Jr.,(210)555-7878,mfsex
+Chevrolet Cruze 34.34 5.23 32
+CHV042,klorson@gnassi.org,Klye Lorson,(210)555-4242,klorson
+Toyota Yaris 35.35 4.84 12
+TOY018,shrubbery@gibbs.edu,Khloe Bush,(210)555-1818,kbush
+Ford Focus 34.34 2.86 15
+FRD002,nhighski@pencilke.net,Nail Keshighski,(210)555-0202,nhighski
+Chevrolet Sonic 28.28 2.53 24
+CHV048,jjipsom@jhendricks.org,Johnny Jipsom,(210)555-4848,jjipsom
+Ford Fiesta 34.43 4.22 18
+FRD017,srickman@fenway.xyz,Stenny Rickman,(210)555-1717,srickman
